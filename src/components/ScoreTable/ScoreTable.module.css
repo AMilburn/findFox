@@ -37,12 +37,10 @@
 
 .scoreCol {
   width: 80px;
-  text-align: right;
 }
 
 .dateCol {
-  width: 160px;
-  text-align: right;
+  width: 220px;
 }
 
 .row {
