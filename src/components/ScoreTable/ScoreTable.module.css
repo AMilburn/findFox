@@ -1,0 +1,68 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  margin: 24px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #1c1b19;
+}
+
+.table thead {
+  border-bottom: 2px solid #d4d0cb;
+  background-color: #faf8f5;
+}
+
+.table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+.rankCol {
+  width: 60px;
+}
+
+.nameCol {
+  flex: 1;
+  min-width: 150px;
+}
+
+.scoreCol {
+  width: 80px;
+  text-align: right;
+}
+
+.dateCol {
+  width: 160px;
+  text-align: right;
+}
+
+.row {
+  border-bottom: 1px solid #e8e6e1;
+  transition: background-color 0.2s ease-out;
+}
+
+.row:hover {
+  background-color: #f5f3f0;
+}
+
+.row td {
+  padding: 12px;
+}
+
+.highlighted {
+  background-color: #fef8f0;
+}
+
+.highlighted td {
+  font-weight: 600;
+  color: #c0392b;
+}

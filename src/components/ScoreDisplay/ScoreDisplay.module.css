@@ -1,0 +1,20 @@
+.scoreDisplay {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1c1b19;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.value {
+  font-variant-numeric: tabular-nums;
+  min-width: 30px;
+  text-align: right;
+}
